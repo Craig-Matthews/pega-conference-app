@@ -1,38 +1,169 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 1em;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: inline-block;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 75px;
+}
+
+.App-header span {
+  align-self: center;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #00A6A7;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 100%;
+}
+
+.btnContainer {
+  display: block;
+}
+
+.btnContainer span {
+  margin: 0 2em;
+}
+
+.MuiGrid-root.MuiGrid-item.keycode {
+  display: block;
+  margin: 1em 0;
+}
+
+.case {
+  padding: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.tab {
+  height: 100%;
+  position: relative;
+}
+
+.current h3 {
+  background-color: transparent;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+.current {
+  background-color: #f6f6f9;
+}
+
+div .meal,
+.break,
+.travel {
+  background-color: rgb(183, 191, 170);
+}
+
+h3:hover {
+  color: rgb(95, 103, 185);
+}
+
+button,
+.backButton {
+  background-color: #3E67BB;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  margin-right: 2px;
+  color: #FFFFFF;
+  font-size: 1em;
+  width: auto;
+}
+
+.checkin button {
+  font-size: 1em;
+  margin: 16px auto;
+}
+
+.checkin div {
+  margin: 16px 0;
+}
+
+.backButton {
+  margin: 10px;
+}
+
+.mapContainer {
+  padding: 10px;
+}
+
+.mapContainer button {
+  margin: 10px auto;
+}
+
+.evtCase {
+  padding: 5px;
+}
+
+.segment {
+  display: block;
+  position: relative;
+
+  min-height: 15vh;
+}
+
+.evtCase p {
+  max-width: fit-content;
+  text-wrap: balance;
+}
+
+.registration .evtCase,
+.customer-centricty .evtCase,
+.mobile .evtCase,
+.user-centred .evtCase,
+.pegaworld .evtCase {
+  border-bottom: 0;
+}
+
+.registration {
+  background-color: rgb(232, 145, 16);
+}
+
+.customer-centricty {
+  background-color: rgb(95, 232, 16);
+  border-bottom: 0;
+}
+
+.mobile {
+  background-color: rgb(16, 189, 232);
+}
+
+.user-centred {
+  background-color: rgb(232, 16, 218);
+}
+
+.pegaworld {
+  background-color: rgb(218, 26, 26);
 }

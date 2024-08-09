@@ -1,0 +1,704 @@
+{
+    "conference": {
+        "days": [
+            {
+                "day": "Sunday",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "4-06-2021",
+                        "time": "12:00",
+                        "event": "Check-in & Registration",
+                        "eventType": "nav",
+                        "eventPrompt": "registration",
+                        "travelLink": "checkin",
+                        "presenter": "",
+                        "title": "Travel to PegaWorld - Registration @ Marriot Orlando"
+                    },
+                    {
+                        "id": "2",
+                        "date": "4-06-2021",
+                        "time": "1:00-1:30",
+                        "event": "Opening Remarks",
+                        "eventPrompt": "",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "3",
+                        "date": "4-06-2021",
+                        "time": "1:30-3:00",
+                        "event": "Strategic Applications and Competitive Intelligence",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "4",
+                        "date": "4-06-2021",
+                        "time": "3:00-3:30",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "5",
+                        "date": "",
+                        "time": "3:30-4:30",
+                        "event": "Customer Centricity & Consulting Customer Panel",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "6",
+                        "date": "",
+                        "time": "4:30-5:15",
+                        "event": "Customer Centricity & Consulting",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Key Messages"
+                    },
+                    {
+                        "id": "7",
+                        "date": "",
+                        "time": "5:15-5.45",
+                        "event": "Customer Experience",
+                        "presenter": "Crystal J1",
+                        "title": "Don't Blow it!"
+                    },
+                    {
+                        "id": "8",
+                        "date": "",
+                        "time": "",
+                        "event": "30 Mins Travel Buses from Marriot",
+                        "eventType": "nav",
+                        "travelLink": "map",
+                        "presenter": "",
+                        "title": "Registration for PegaWorld"
+                    },
+                    {
+                        "id": "9",
+                        "date": "",
+                        "time": "6:30",
+                        "event": "PegaWORLD",
+                        "eventPrompt": "pegaworld",
+                        "presenter": "",
+                        "title": "Reception & Dinner"
+                    }
+                ]
+            },
+            {
+                "day": "Monday",
+                "events": [
+                    {
+                        "id": "2",
+                        "date": "",
+                        "time": "8:00",
+                        "event": "PegaWORLD",
+                        "eventPrompt": "pegaworld",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "2",
+                        "date": "",
+                        "time": "6:00",
+                        "event": "PegaWORLD",
+                        "eventPrompt": "pegaworld",
+                        "presenter": "",
+                        "title": "Customer Appreciation Event - Universal Studios, Orlando"
+                    }
+                ]
+            },
+            {
+                "day": "Tuesday",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "",
+                        "time": "8:00",
+                        "event": "PegaWORLD",
+                        "eventPrompt": "pegaworld",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "2",
+                        "date": "",
+                        "time": "6:00",
+                        "event": "Design Track Event",
+                        "presenter": "",
+                        "title": "Kayak Eco-Tour, Shingle Creek"
+                    }
+                ]
+            },
+            {
+                "day": "Wednesday Stream 1",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "",
+                        "time": "7:00-8:00",
+                        "event": "Breakfast",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "2",
+                        "date": "",
+                        "time": "8:15-8:45",
+                        "event": "Mobile Overview",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "3",
+                        "date": "",
+                        "time": "8:45-9:15",
+                        "event": "User Centered Design Overview",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "4",
+                        "date": "",
+                        "time": "9:15-10:35",
+                        "event": "User Centered Design Implementations",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "5",
+                        "date": "",
+                        "time": "10:35-10:50",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "6",
+                        "date": "",
+                        "time": "10:50-12:20",
+                        "event": "User Centered Design Nuts and Bolts",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "12:20-1:05",
+                        "event": "Lunch",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "1:05-2:35",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal K",
+                        "title": " It's all about the User Experience"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "2:35-3:55",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal K",
+                        "title": "Publishing an App & Offline Considerations"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "3:55-4:15",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "4:15-5:30",
+                        "event": "Upgrade Information",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "5:30-6:30",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Introduction/Q&A"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "7:30",
+                        "event": "Design Track Event",
+                        "eventType": "nav",
+                        "travelLink": "map",
+                        "presenter": "",
+                        "title": "Dinner – Marriott Orlando World Center"
+                    }
+                ]
+            },
+            {
+                "day": "Wednesday Stream 2",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "",
+                        "time": "7:00-8:00",
+                        "event": "Breakfast",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "7",
+                        "date": "",
+                        "time": "8:15-8:45",
+                        "event": "User Centered Design",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal L",
+                        "title": "Overview"
+                    },
+                    {
+                        "id": "8",
+                        "date": "",
+                        "time": "8:45-9:15 ",
+                        "event": "Mobile Overview",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal L",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "9:15-10:45",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal L",
+                        "title": "It's all about the User Experience"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "10:45-11:00",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "11:00-12:20",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal L",
+                        "title": "Publishing an App & Offline Considerations"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "12:20-1:05",
+                        "event": "Lunch",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "1:05-2:35",
+                        "event": "User Centered Design",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal L",
+                        "title": "Nuts & Bolts"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "2:35-3:55",
+                        "event": "User Centered Design",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal L",
+                        "title": "Implementations"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "3:55-4:15",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "4:15-5:30",
+                        "event": "Upgrade Information",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "5:30-6:30",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Introduction/Q&A"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "7:30",
+                        "event": "Design Track Event",
+                        "eventType": "nav",
+                        "travelLink": "map",
+                        "presenter": "",
+                        "title": "Dinner – Marriott Orlando World Center"
+                    }
+                ]
+            },
+            {
+                "day": "Thursday",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "",
+                        "time": "7:00-8:00",
+                        "event": "Breakfast",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "2",
+                        "date": "",
+                        "time": "8:15-10:15",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Breakouts"
+                    },
+                    {
+                        "id": "3",
+                        "date": "",
+                        "time": "10:15-10:45",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "4",
+                        "date": "",
+                        "time": "10:45-12:45",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Breakouts"
+                    },
+                    {
+                        "id": "5",
+                        "date": "",
+                        "time": "12:45-1:45",
+                        "event": "Lunch",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "6",
+                        "date": "",
+                        "time": "1:45-2:30",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Action Planning Debrief"
+                    },
+                    {
+                        "id": "7",
+                        "date": "",
+                        "time": "2:30-2:45",
+                        "event": "Closing Remarks",
+                        "presenter": "Crystal J1"
+                    },
+                    {
+                        "id": "8",
+                        "date": "",
+                        "time": "3:00",
+                        "event": "Travel from PegaWorld",
+                        "eventType": "nav",
+                        "travelLink": "map",
+                        "presenter": "",
+                        "title": "Bus service to airport"
+                    }
+                ]
+            }
+        ],
+        "wednesdaysplit": [
+            {
+                "day": "Wednesday Stream 1",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "",
+                        "time": "7:00-8:00",
+                        "event": "Breakfast",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "2",
+                        "date": "",
+                        "time": "8:15-8:45",
+                        "event": "Mobile Overview",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "3",
+                        "date": "",
+                        "time": "8:45-9:15",
+                        "event": "User Centered Design Overview",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "4",
+                        "date": "",
+                        "time": "9:15-10:35",
+                        "event": "User Centered Design Implementations",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "5",
+                        "date": "",
+                        "time": "10:35-10:50",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "6",
+                        "date": "",
+                        "time": "10:50-12:20",
+                        "event": "User Centered Design Nuts and Bolts",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal K",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "12:20-1:05",
+                        "event": "Lunch",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "1:05-2:35",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal K",
+                        "title": " It's all about the User Experience"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "2:35-3:55",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal K",
+                        "title": "Publishing an App & Offline Considerations"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "3:55-4:15",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "4:15-5:30",
+                        "event": "Upgrade Information",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "5:30-6:30",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Introduction/Q&A"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "7:30",
+                        "event": "Design Track Event",
+                        "eventType": "nav",
+                        "travelLink": "map",
+                        "presenter": "",
+                        "title": "Dinner – Marriott Orlando World Center"
+                    }
+                ]
+            },
+            {
+                "day": "Wednesday Stream 2",
+                "events": [
+                    {
+                        "id": "1",
+                        "date": "",
+                        "time": "7:00-8:00",
+                        "event": "Breakfast",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "7",
+                        "date": "",
+                        "time": "8:15-8:45",
+                        "event": "User Centered Design",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal L",
+                        "title": "Overview"
+                    },
+                    {
+                        "id": "8",
+                        "date": "",
+                        "time": "8:45-9:15 ",
+                        "event": "Mobile Overview",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal L",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "9:15-10:45",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal L",
+                        "title": "It's all about the User Experience"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "10:45-11:00",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "11:00-12:20",
+                        "event": "Mobile",
+                        "eventPrompt": "mobile",
+                        "presenter": "Crystal L",
+                        "title": "Publishing an App & Offline Considerations"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "12:20-1:05",
+                        "event": "Lunch",
+                        "eventType": "meal",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "1:05-2:35",
+                        "event": "User Centered Design",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal L",
+                        "title": "Nuts & Bolts"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "2:35-3:55",
+                        "event": "User Centered Design",
+                        "eventPrompt": "user-centred",
+                        "presenter": "Crystal L",
+                        "title": "Implementations"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "3:55-4:15",
+                        "event": "Break",
+                        "eventType": "break",
+                        "presenter": "",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "4:15-5:30",
+                        "event": "Upgrade Information",
+                        "presenter": "Crystal J1",
+                        "title": ""
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "5:30-6:30",
+                        "event": "Customer Centricity",
+                        "eventPrompt": "customer-centricty",
+                        "presenter": "Crystal J1",
+                        "title": "Introduction/Q&A"
+                    },
+                    {
+                        "id": "",
+                        "date": "",
+                        "time": "7:30",
+                        "event": "Design Track Event",
+                        "eventType": "nav",
+                        "travelLink": "map",
+                        "presenter": "",
+                        "title": "Dinner – Marriott Orlando World Center"
+                    }
+                ]
+            }
+        ]
+    }
+}
