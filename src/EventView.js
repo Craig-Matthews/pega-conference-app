@@ -10,11 +10,9 @@ const EventView = (props) => {
     const { conference } = event;
     const { days } = conference;
     const { wednesdaysplit } = conference;
-
     const [result, setResult] = useState(days);
     const [speaker, setSpeaker] = useState("person");
     const [showKey, setshowKey] = useState(false);
-    const [showWeek, setshowWeek] = useState(false);
     const dayOfTheWeek = () => format(new Date(), "eeee");
     const showDay = (day) => {
         if (day === "Wednesday Stream 1" || day === "Wednesday Stream 2") {
@@ -41,16 +39,16 @@ const EventView = (props) => {
             <div className="btnContainer">
                 <Grid container spacing={1}>
                     <Grid item xs={12} sm={12} md={2} lg={2}>
-                        <button role="button" onClick={() => showAll()}>Show week</button>
+                        <button onClick={() => showAll()}>Show week</button>
                     </Grid>
 
                     <Grid item xs={12} sm={12} md={6} lg={4}>
-                        <button role="button" onClick={() => showSpeaker("Crystal J1")}>Crystal J1</button>
-                        <button role="button" onClick={() => showSpeaker("Crystal K")}>Crystal K</button>
-                        <button role="button" onClick={() => showSpeaker("Crystal L")}>Crystal L</button>
+                        <button onClick={() => showSpeaker("Crystal J1")}>Crystal J1</button>
+                        <button onClick={() => showSpeaker("Crystal K")}>Crystal K</button>
+                        <button onClick={() => showSpeaker("Crystal L")}>Crystal L</button>
                     </Grid>
                     <Grid item xs={12} sm={12} md={4} lg={4}>
-                        <button role="button" onClick={() => setshowKey(!showKey)}>{showKey ? "Hide key" : "Show Key"}</button>
+                        <button onClick={() => setshowKey(!showKey)}>{showKey ? "Hide key" : "Show Key"}</button>
                         {showKey ? <Key /> : null}
                     </Grid>
                 </Grid>
@@ -61,7 +59,7 @@ const EventView = (props) => {
                         const { events } = item;
                         return <Grid key={i} item xs={12} sm={12} md={10} lg={2}>
                             <div key={i} className={dayOfTheWeek() === item.day ? "current tab" : "tab"}>
-                                <h3 role="heading" onClick={() => showDay(item.day)}>{item.day}</h3>
+                                <h3 onClick={() => showDay(item.day)}>{item.day}</h3>
                                 {events.map((evt, x) => {
                                     return result.length > 1 ? <WeekView key={x} showKey={showKey} evt={evt} speaker={speaker} /> : <DayView key={x} evt={evt} speaker={speaker} showKey={showKey} />
                                 })}

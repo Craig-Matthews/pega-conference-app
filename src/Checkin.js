@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Grid } from '@mui/material';
 
 const Checkin = () => {
-    const [person, setPerson] = useState({});
+    const [setPerson] = useState({});
     const navigate = useNavigate();
 
     return <div className="case checkin">

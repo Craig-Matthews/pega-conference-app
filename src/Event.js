@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 const Event = (props) => {
-    const { time, event, eventType, presenter, title, travelLink, eventPrompt, segment } = props.evt;
+    const { time, event, eventType, presenter, title, travelLink, eventPrompt } = props.evt;
     const { speaker, showKey } = props;
 
     return <div className={eventType ? eventType : null}>

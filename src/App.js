@@ -1,5 +1,4 @@
 import './App.css';
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from './assets/logo.jpeg';
 import { Grid } from '@mui/material';
