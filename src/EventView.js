@@ -17,7 +17,6 @@ const EventView = (props) => {
     const [showWeek, setshowWeek] = useState(false);
     const dayOfTheWeek = () => format(new Date(), "eeee");
     const showDay = (day) => {
-        console.log('day', day)
         if (day === "Wednesday Stream 1" || day === "Wednesday Stream 2") {
             setResult(wednesdaysplit)
         } else {

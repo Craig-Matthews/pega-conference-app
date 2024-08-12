@@ -1,7 +1,7 @@
 import Event from "./Event";
 import { Grid } from '@mui/material';
 
-const SingleView = (props) => {
+const DayView = (props) => {
     const { speaker, showKey } = props;
 
     return <>
@@ -11,4 +11,4 @@ const SingleView = (props) => {
     </>
 }
 
-export default SingleView;
+export default DayView;

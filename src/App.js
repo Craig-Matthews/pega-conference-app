@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route>
             <Route path="checkin" element={<Checkin />} />
-            <Route index path="eventview" element={<EventView />} />
+            <Route index path="/" element={<EventView />} />
             <Route path="map" element={<Map />} />
             <Route path="*" element={<Boundary />} />
           </Route>

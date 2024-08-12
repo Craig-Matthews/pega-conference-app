@@ -18,7 +18,7 @@ const Checkin = () => {
                 onSubmit={async (values) => {
                     await new Promise((r) => setTimeout(r, 500));
                     setPerson(values, null, 2);
-                    return navigate("/eventview");
+                    return navigate("/");
                 }}
             >
                 <Form>
@@ -38,7 +38,7 @@ const Checkin = () => {
                         />
                     </Grid>
                     <button type="submit">Submit</button>
-                    <Link className="backButton" role="button" to="/eventview">Back to events</Link>
+                    <Link className="backButton" role="button" to="/">Back to events</Link>
                 </Form>
             </Formik>
         </Grid>

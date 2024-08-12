@@ -6,7 +6,7 @@ const Map = () => {
     const position = [28.3605, -81.5101]
 
     return <>
-        <Link className="backButton" role="button" to="/eventview">Back to events</Link>
+        <Link className="backButton" role="button" to="/">Back to events</Link>
         <div className="mapContainer">
             <Grid container spacing={1}>
                 <Grid item xs={12} sm={12} md={10} lg={12}>
